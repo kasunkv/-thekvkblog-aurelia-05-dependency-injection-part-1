@@ -1,0 +1,11 @@
+<template>
+    <h1>Home</h1>
+    <hr>
+    <div class="form-group">
+        <input type="text" class="form-control" value.bind="message">
+    </div>
+    <p class="lead">${message}</p>
+    <hr>
+    <h2>Employee of the Month</h2>
+    <compose model.bind="profile" view-model="viewmodels/profile"></compose>    
+</template>
